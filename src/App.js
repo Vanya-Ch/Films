@@ -71,7 +71,7 @@ function App(){
             </a>
             <form className="header__form" name="query" onSubmit={searchMovies} value={query}>
               <input className="header__form--input" type="search" placeholder="Enter film name" onChange={changeHandler}/>
-              <button className="header__form--button" type="submit">Submit</button>
+              <button className="header__form--button" type="submit">Search</button>
             </form>
           </div>
         </div>

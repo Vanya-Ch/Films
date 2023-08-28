@@ -22,7 +22,7 @@ const Movies = ({title, poster_path, id, overview, vote_average }) => {
                 </div>
                 <div className="modal__overview">
                     <h3>Overview:</h3>
-                    <div>
+                    <div className="modal__overview--text">
                         {overview}
                     </div>
                 </div>
